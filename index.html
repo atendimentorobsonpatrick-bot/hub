@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AURA - Premium Live Calls</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1f2937',
+              'brand-secondary': '#16213e',
+              'brand-accent': '#e94560',
+              'brand-light': '#f0f0f0',
+              'brand-gold': '#fcd34d',
+              'brand-green': '#34d399',
+              'brand-yellow': '#fbbf24',
+              'brand-gray': '#9ca3af',
+              'brand-red': '#dc2626',
+              // New colors for landing page
+              'brand-pink': '#ec4899',
+              'brand-pink-hover': '#db2777',
+              'brand-light-bg': '#f8fafc',
+              'brand-text-dark': '#1f2937',
+            },
+            fontFamily: {
+              sans: ['Lexend', 'sans-serif'],
+              serif: ['Lexend', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "dotenv/": "https://aistudiocdn.com/dotenv@^17.2.3/",
+    "node-fetch": "https://aistudiocdn.com/node-fetch@^3.3.2",
+    "vite": "https://aistudiocdn.com/vite@^7.2.2",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "fs/": "https://aistudiocdn.com/fs@^0.0.1-security/",
+    "cookie-parser": "https://aistudiocdn.com/cookie-parser@^1.4.7"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-white font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
