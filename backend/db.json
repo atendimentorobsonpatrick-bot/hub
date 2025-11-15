@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "name": "Aria",
+    "age": 24,
+    "bio": "Passionate about deep conversations and genuine connections. Let's explore new worlds together. I love art, music, and late-night philosophy.",
+    "profileImage": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?q=80&w=800&auto=format&fit=crop"
+    ],
+    "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "status": "Online",
+    "products": [
+      { "id": 101, "duration": 5, "price": 29.99, "productHash": "prod_1a", "offerHash": "offer_1a1" },
+      { "id": 102, "duration": 10, "price": 49.99, "productHash": "prod_1a", "offerHash": "offer_1a2" },
+      { "id": 105, "duration": 25, "price": 109.99, "productHash": "prod_1a", "offerHash": "offer_1a5" }
+    ],
+    "reviews": [
+      { "id": "rev-1-1", "username": "Alex R.", "rating": 5, "comment": "Aria was amazing! So engaging and fun to talk to. Felt like chatting with an old friend.", "response": "Thank you, Alex! I had a wonderful time with you too. Hope to talk again soon!", "status": "approved" },
+      { "id": "rev-1-2", "username": "Mike P.", "rating": 5, "comment": "An incredible experience. Very intelligent and witty.", "status": "approved" },
+      { "id": "rev-1-3", "username": "Sarah K.", "rating": 4, "comment": "Really enjoyed our conversation about art history.", "status": "approved" },
+      { "id": "rev-1-4", "username": "Lead User", "rating": 5, "comment": "This is a test comment from a lead that should be hidden.", "isLeadComment": true, "status": "approved" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Luna",
+    "age": 21,
+    "bio": "Your girl-next-door with a wild side. I enjoy gaming, cosplay, and laughing until my stomach hurts. Let's have some fun!",
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop"
+    ],
+    "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "status": "Online",
+    "products": [
+      { "id": 201, "duration": 5, "price": 29.99, "productHash": "prod_2b", "offerHash": "offer_2b1" },
+      { "id": 202, "duration": 10, "price": 49.99, "productHash": "prod_2b", "offerHash": "offer_2b2" },
+      { "id": 205, "duration": 25, "price": 109.99, "productHash": "prod_2b", "offerHash": "offer_2b5" }
+    ],
+    "reviews": [
+        { "id": "rev-2-1", "username": "GamerGod99", "rating": 5, "comment": "Luna is hilarious and so much fun. We talked about Final Fantasy for the whole call!", "status": "approved" },
+        { "id": "rev-2-2", "username": "Chris B.", "rating": 5, "comment": "Super friendly and down to earth. 10/10 would recommend.", "status": "approved" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Scarlett",
+    "age": 28,
+    "bio": "Elegant, sophisticated, and always up for an intriguing chat. I have a taste for the finer things in life, including great company. Tell me your story.",
+    "profileImage": "https://images.unsplash.com/photo-1516726817508-345d94d9359e?q=80&w=800&auto=format&fit=crop",
+    "galleryImages": [
+      "https://images.unsplash.com/photo-1502323777036-f2913972d324?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=800&auto=format&fit=crop"
+    ],
+    "videoUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    "status": "Offline",
+    "products": [
+      { "id": 301, "duration": 5, "price": 34.99, "productHash": "prod_3c", "offerHash": "offer_3c1" },
+      { "id": 302, "duration": 10, "price": 59.99, "productHash": "prod_3c", "offerHash": "offer_3c2" },
+      { "id": 305, "duration": 25, "price": 119.99, "productHash": "prod_3c", "offerHash": "offer_3c5" }
+    ],
+    "reviews": [
+        { "id": "rev-3-1", "username": "James T.", "rating": 5, "comment": "Truly a class act. Scarlett is captivating and an excellent conversationalist.", "status": "approved" }
+    ]
+  }
+]
