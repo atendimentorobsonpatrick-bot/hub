@@ -11,6 +11,6 @@
 //
 // Example: export const BACKEND_URL = 'https://aura-backend-123.onrender.com';
 //
-export const BACKEND_URL = 'https://hub-0m2c.onrender.com/';
+export const BACKEND_URL = 'https://hub-0m2c.onrender.com';
 
 // ===================================================================================
